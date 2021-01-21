@@ -1,0 +1,47 @@
+html {
+    font-family: 'Helvetica', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.list-main {
+    list-style-type: square;
+}
+.inner-list {
+    list-style-type: disc;
+    
+}
+.inner-three {
+    list-style-type: circle;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-spacing: 0;
+}
+table thead {
+    background-color: #CDCBCD;
+    
+}
+table thead th {
+    padding: 5px;
+}
+table tbody td {
+    border: 1px solid #CDCBCD;
+    padding: 5px;
+}
+table tr:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+table tbody tr:nth-child(odd) {
+    background-color: #F2F0F2;
+}

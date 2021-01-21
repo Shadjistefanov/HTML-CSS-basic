@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+
+body {
+    margin: 0;
+    font-family: 'Courgette', cursive;
+    background: #F5F5F5;
+
+} 
+
+section {
+    width: 80%;
+    margin 50px auto;
+    text-align: center;
+    padding-left: 108px;
+}
+section article {
+    background: white;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 8px 10px 5px 10px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    min-height: 490px;
+}
+
+.title {
+    font-size: 50px;
+    letter-spacing: 4px;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    margin-top: 0;
+    font-size: 26px;
+    padding-left: 242px;
+    color: #CB2027;
+
+}
+section article img {
+    width: 100%;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+section article h4 {
+    font-size: 23px;
+    border-bottom: 1px solid #CB2027;
+    margin: 20px 15px;
+    padding-bottom: 13px;
+}
+section article p {
+    font-size: 17px;
+    padding: 0 12px 20px 12px;
+}
+
+section article a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 22px;
+    
+}
+
+section article i {
+    background: #CB2027;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 6px;
+    font-size: 10px;
+    position: relative;
+    left: 8px;
+
+}
