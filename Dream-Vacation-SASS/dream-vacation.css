@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+body {
+  font-family: "Lato", sans-serif; }
+
+header {
+  background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)), url("Background_with_Summer_Sea.jpg");
+  background-size: cover;
+  padding-bottom: 390px; }
+  header .nav-ctr {
+    display: flex;
+    justify-content: space-around; }
+    header .nav-ctr .logo-ctr {
+      color: #ffff00;
+      display: flex; }
+      header .nav-ctr .logo-ctr i {
+        font-size: 50px;
+        padding-top: 10px; }
+      header .nav-ctr .logo-ctr p {
+        padding-left: 10px;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 20px; }
+    header .nav-ctr ul {
+      display: flex; }
+      header .nav-ctr ul li {
+        list-style: none;
+        font-weight: bold;
+        padding-left: 20px; }
+        header .nav-ctr ul li a {
+          text-decoration: none;
+          color: white; }
+  header h1, header p {
+    text-align: center;
+    color: white; }
+  header h1 {
+    font-size: 40px;
+    margin-top: 340px; }
+
+main {
+  Background: #D3D3D3;
+  padding: 30px 0 0 0; }
+  main h2, main p {
+    text-align: center; }
+  main p {
+    color: gray; }
+  main .destination-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0; }
+    main .destination-section article {
+      width: 30%; }
+      main .destination-section article img {
+        width: 100%;
+        height: 100%; }
+      main .destination-section article .destination-ctr {
+        background: white;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between; }
+        main .destination-section article .destination-ctr .destitantion-name {
+          font-weight: bold; }
+  main .customer-opinion {
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background: white; }
+    main .customer-opinion h2 {
+      padding-top: 31px; }
+    main .customer-opinion .inner-section {
+      display: flex;
+      text-align: center; }
+      main .customer-opinion .inner-section p {
+        width: 90%;
+        font-style: italic; }
+      main .customer-opinion .inner-section img {
+        width: 200px;
+        height: 200px;
+        border-radius: 200%;
+        border: 6px solid dimgray; }
+  main footer {
+    padding: 30px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    background: white; }
+    main footer ul {
+      display: flex;
+      padding-bottom: 10px; }
+      main footer ul li {
+        margin-right: 20px;
+        list-style: none;
+        text-decoration: none;
+        color: #878080; }
+
+/*# sourceMappingURL=dream-vacation.css.map */
